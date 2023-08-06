@@ -1,0 +1,76 @@
+.form-control {
+  margin: 0.5rem 0;
+}
+
+.form-control label {
+  display: block;
+  font-weight: bold;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-control input {
+  width: 15rem;
+  padding: 0.5rem;
+  font: inherit;
+  border: 1px solid grey;
+  margin: 0 auto;
+}
+
+#game-configuration {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  width: 90%;
+  max-width: 40rem;
+  margin: 3rem auto;
+}
+
+#game-configuration ol {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 1rem;
+  padding: 0;
+}
+
+#game-configuration li {
+  padding: 1rem 1rem;
+  margin: 1rem;
+  width: 50%;
+  border-radius: 5px;
+  background: rgb(239, 177, 239);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.356);
+}
+
+#game-configuration h3 {
+  font-size: 1.5rem;
+  color: rgb(98, 16, 134);
+  text-transform: uppercase;
+}
+
+#game-configuration button {
+  margin: auto;
+}
+
+.player-symbol {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.error {
+  color: rgb(136, 2, 2);
+}
+
+.error input {
+  background-color: rgb(255, 145, 145);
+  border-color: rgb(136, 2, 2);
+}
